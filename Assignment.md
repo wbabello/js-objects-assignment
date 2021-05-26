@@ -10,11 +10,13 @@ Let's write a small program to keep track of which books you read and which book
 
 1. Create an **Array** of **Objects**
 1. Each **Object** in the **Array** should describe a book and have the following properties:
+
    1. Title (**String**)
    1. Author (**String**)
    1. alreadyRead (**Boolean**)
 
       A **Boolean** that indicates whether you already read the book
+
 1. Iterate a.k.a Loop through the **Array** of **Objects** containing the books
 1. For each book, print the book title and author as shown below:
    ```
@@ -31,7 +33,27 @@ Let's write a small program to keep track of which books you read and which book
       ```
 
 ```js
-// Your Answer
+// Your Answer1. For each book, print the book title and author as shown below:   The Hobbit by J.R.R. Tolkien
+
+const theReadingList = {
+  title: ["Refusal", "Macbeth", "Diamond In the Jungle"],
+  author: ["Soazig Aaron", "William Shakespeare", "Agatha Christie"],
+  alreadyRead: ["Yes", "No"]
+};
+
+for (let i = 0; i < theReadingList.length; i++) {}
+
+console.log(`
+The ${theReadingList.title[0]}  by ${theReadingList.author[0]} 
+`);
+
+console.log(`
+The ${theReadingList.title[1]}  by ${theReadingList.author[1]} 
+`);
+
+console.log(`
+The ${theReadingList.title[2]}  by ${theReadingList.author[2]} 
+`);
 ```
 
 ### 2: The Fastest Ship in the Galaxy
@@ -40,55 +62,47 @@ Let's start you with a small ship to work on. Follow each prompt in the comments
 
 ```js
 const ship = {
-   name: 'Millennium Falcon',
-   speed: 42,
-   crew: ['Han Solo', 'Chewbacca'],
-   passengers: [],
-   famous: true,
-   heardOfIt: function() {
-      console.log("You've never heard of the millennium falcon?");
-   }
+  name: "Millennium Falcon",
+  speed: 42,
+  crew: ["Han Solo", "Chewbacca"],
+  passengers: [],
+  famous: true,
+  heardOfIt: function () {
+    console.log("You've never heard of the millennium falcon?");
+  }
 };
 
 // Console Log the Ship Name
 
 // Your Answer
 
-
 // Change the Speed to 9999
 
 // Your Answer
-
 
 // Add 2 passengers, "Leia" and "Luke"
 
 // Your Answer
 
-
 // Console Log whether it's famous or not
 
 // Your Answer
-
 
 // Ask if you've heard of the millenium falcon
 
 // Your Answer
 
-
 // Remove Leia from the crew
 
 // Your Answer
-
 
 // Add a new property called "color" and set it equal to "beige"
 
 // Your Answer
 
-
 // Add a new property called "missions" and set it equal to an empty object
 
 // Your Answer
-
 
 /*
    Add the following 3 properties to the "missions" property object
@@ -99,7 +113,6 @@ const ship = {
 */
 
 // Your Answer
-
 
 // Bonus Problem
 // You are going to need to use a search engine for this
