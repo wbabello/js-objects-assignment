@@ -54,6 +54,18 @@ The ${theReadingList.title[1]}  by ${theReadingList.author[1]}
 console.log(`
 The ${theReadingList.title[2]}  by ${theReadingList.author[2]} 
 `);
+
+// You have already read "The Hobbit" by J.R.R. Tolkien
+
+const theReadingList = {
+  book1: ["Refusal", "Soazig Aaron", "Yes"],
+  book2: ["Macbeth", "William Shakespeare", "No"],
+  book3: ["Diamond In the Jungle", "Agatha Christie", "Yes"]
+};
+
+for (let i = 0; i < theReadingList.length; i++) {
+  console.log(theReadingList[i]);
+}
 ```
 
 ### 2: The Fastest Ship in the Galaxy
